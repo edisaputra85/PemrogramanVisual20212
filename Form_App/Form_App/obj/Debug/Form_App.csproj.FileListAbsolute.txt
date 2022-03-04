@@ -1,0 +1,26 @@
+D:\Kuliah\Pemrograman Visual\Latihan 20212\Form_App\Form_App\bin\Debug\Form_App.exe.config
+D:\Kuliah\Pemrograman Visual\Latihan 20212\Form_App\Form_App\bin\Debug\Form_App.exe
+D:\Kuliah\Pemrograman Visual\Latihan 20212\Form_App\Form_App\bin\Debug\Form_App.pdb
+D:\Kuliah\Pemrograman Visual\Latihan 20212\Form_App\Form_App\obj\Debug\Form_App.csproj.AssemblyReference.cache
+D:\Kuliah\Pemrograman Visual\Latihan 20212\Form_App\Form_App\obj\Debug\Form_App.FormInputDataPegawai.resources
+D:\Kuliah\Pemrograman Visual\Latihan 20212\Form_App\Form_App\obj\Debug\Form_App.Properties.Resources.resources
+D:\Kuliah\Pemrograman Visual\Latihan 20212\Form_App\Form_App\obj\Debug\Form_App.csproj.GenerateResource.cache
+D:\Kuliah\Pemrograman Visual\Latihan 20212\Form_App\Form_App\obj\Debug\Form_App.csproj.CoreCompileInputs.cache
+D:\Kuliah\Pemrograman Visual\Latihan 20212\Form_App\Form_App\obj\Debug\Form_App.exe
+D:\Kuliah\Pemrograman Visual\Latihan 20212\Form_App\Form_App\obj\Debug\Form_App.pdb
+D:\Kuliah\Pemrograman Visual\Latihan 20212\Form_App\Form_App\obj\Debug\Form_App.MainForm.resources
+D:\Kuliah\Pemrograman Visual\Latihan 20212\Form_App\Form_App\obj\Debug\Form_App.FormDataBarang.resources
+D:\Kuliah\Pemrograman Visual\Latihan 20212\Form_App\Form_App\obj\Debug\Form_App.FormMDIContainer.resources
+D:\LocalGitHub\PemrogramanVisual20212\Form_App\Form_App\bin\Debug\Form_App.exe.config
+D:\LocalGitHub\PemrogramanVisual20212\Form_App\Form_App\bin\Debug\Form_App.exe
+D:\LocalGitHub\PemrogramanVisual20212\Form_App\Form_App\bin\Debug\Form_App.pdb
+D:\LocalGitHub\PemrogramanVisual20212\Form_App\Form_App\obj\Debug\Form_App.csproj.AssemblyReference.cache
+D:\LocalGitHub\PemrogramanVisual20212\Form_App\Form_App\obj\Debug\Form_App.FormInputDataPegawai.resources
+D:\LocalGitHub\PemrogramanVisual20212\Form_App\Form_App\obj\Debug\Form_App.FormDataBarang.resources
+D:\LocalGitHub\PemrogramanVisual20212\Form_App\Form_App\obj\Debug\Form_App.FormMDIContainer.resources
+D:\LocalGitHub\PemrogramanVisual20212\Form_App\Form_App\obj\Debug\Form_App.MainForm.resources
+D:\LocalGitHub\PemrogramanVisual20212\Form_App\Form_App\obj\Debug\Form_App.Properties.Resources.resources
+D:\LocalGitHub\PemrogramanVisual20212\Form_App\Form_App\obj\Debug\Form_App.csproj.GenerateResource.cache
+D:\LocalGitHub\PemrogramanVisual20212\Form_App\Form_App\obj\Debug\Form_App.csproj.CoreCompileInputs.cache
+D:\LocalGitHub\PemrogramanVisual20212\Form_App\Form_App\obj\Debug\Form_App.exe
+D:\LocalGitHub\PemrogramanVisual20212\Form_App\Form_App\obj\Debug\Form_App.pdb
