@@ -24,3 +24,17 @@ D:\LocalGitHub\PemrogramanVisual20212\Form_App\Form_App\obj\Debug\Form_App.cspro
 D:\LocalGitHub\PemrogramanVisual20212\Form_App\Form_App\obj\Debug\Form_App.csproj.CoreCompileInputs.cache
 D:\LocalGitHub\PemrogramanVisual20212\Form_App\Form_App\obj\Debug\Form_App.exe
 D:\LocalGitHub\PemrogramanVisual20212\Form_App\Form_App\obj\Debug\Form_App.pdb
+D:\LocalGitHub\PemrogramanVisual20212\Form_App\Form_App\bin\Debug\MySql.Data.dll
+D:\LocalGitHub\PemrogramanVisual20212\Form_App\Form_App\bin\Debug\Google.Protobuf.dll
+D:\LocalGitHub\PemrogramanVisual20212\Form_App\Form_App\bin\Debug\Zstandard.Net.dll
+D:\LocalGitHub\PemrogramanVisual20212\Form_App\Form_App\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\LocalGitHub\PemrogramanVisual20212\Form_App\Form_App\bin\Debug\BouncyCastle.Crypto.dll
+D:\LocalGitHub\PemrogramanVisual20212\Form_App\Form_App\bin\Debug\Ubiety.Dns.Core.dll
+D:\LocalGitHub\PemrogramanVisual20212\Form_App\Form_App\bin\Debug\System.Memory.dll
+D:\LocalGitHub\PemrogramanVisual20212\Form_App\Form_App\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\LocalGitHub\PemrogramanVisual20212\Form_App\Form_App\bin\Debug\System.Buffers.dll
+D:\LocalGitHub\PemrogramanVisual20212\Form_App\Form_App\bin\Debug\K4os.Compression.LZ4.dll
+D:\LocalGitHub\PemrogramanVisual20212\Form_App\Form_App\bin\Debug\K4os.Hash.xxHash.dll
+D:\LocalGitHub\PemrogramanVisual20212\Form_App\Form_App\bin\Debug\System.Numerics.Vectors.dll
+D:\LocalGitHub\PemrogramanVisual20212\Form_App\Form_App\bin\Debug\MySql.Data.xml
+D:\LocalGitHub\PemrogramanVisual20212\Form_App\Form_App\obj\Debug\Form_App.csproj.CopyComplete

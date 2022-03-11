@@ -20,12 +20,12 @@ namespace Form_App
             dataPegawai.nama = textBoxNama.Text;
             dataPegawai.nik = textBoxNIK.Text;
             dataPegawai.tmpt_lahir = textBoxTmptLahir.Text;
-            dataPegawai.tgl_lahir = dateTimePickerTglLahir.Value.ToString("dd-MM-yyyy");
+            dataPegawai.tgl_lahir = dateTimePickerTglLahir.Value.ToString("yyyyMMdd");//yyyy-mm-dd
             dataPegawai.agama = comboBoxAgama.SelectedItem.ToString();
             dataPegawai.alamat = textBoxAlamat.Text;
 
             //tampilkan data menggunakan message box -> sbg pengganti penyimpanan data ke DB
-            MessageBox.Show("Nama : " + dataPegawai.nama);
+            
 
             //Menampilkan data di datagridview
             _daftarPegawai.Add(dataPegawai);
@@ -33,14 +33,11 @@ namespace Form_App
             dataGridViewDataPegawai.DataSource = null;
             dataGridViewDataPegawai.DataSource = _daftarPegawai;
 
-
-            //ArrayList daftarPegawai = new System.Collections.ArrayList();
-            //DaftarPegawai.Add(new Pegawai("abcd","efgh","jikl" ));
-
-            // DaftarPegawai.Add(dataPegawai);
-            //DaftarPegawai.Add(new MyObject(3, "Object C"));
-            //dataGridViewDataPegawai.DataSource = DaftarPegawai;
-            //dataGridViewDataPegawai.Refresh();
+            //insert ke database
+            String response;
+            response = dataPegawai.Insert();
+            if (response == null) MessageBox.Show("Insert data sukses");
+            else MessageBox.Show("Insert data gagal " + response);
         }
 
         public FormInputDataPegawai()
