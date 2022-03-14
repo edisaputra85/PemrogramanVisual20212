@@ -47,6 +47,7 @@ namespace Form_App
             this.buttonTambahData = new System.Windows.Forms.Button();
             this.dataGridViewDataPegawai = new System.Windows.Forms.DataGridView();
             this.buttonRefreshData = new System.Windows.Forms.Button();
+            this.buttonUpdate = new System.Windows.Forms.Button();
             this.pegawaiBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.pegawaiBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.tableLayoutPanel1.SuspendLayout();
@@ -220,6 +221,7 @@ namespace Form_App
             this.dataGridViewDataPegawai.RowTemplate.Height = 28;
             this.dataGridViewDataPegawai.Size = new System.Drawing.Size(554, 142);
             this.dataGridViewDataPegawai.TabIndex = 3;
+            this.dataGridViewDataPegawai.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewDataPegawai_CellClick);
             // 
             // buttonRefreshData
             // 
@@ -230,6 +232,16 @@ namespace Form_App
             this.buttonRefreshData.Text = "Refresh Data";
             this.buttonRefreshData.UseVisualStyleBackColor = true;
             this.buttonRefreshData.Click += new System.EventHandler(this.buttonRefreshData_Click);
+            // 
+            // buttonUpdate
+            // 
+            this.buttonUpdate.Location = new System.Drawing.Point(315, 302);
+            this.buttonUpdate.Name = "buttonUpdate";
+            this.buttonUpdate.Size = new System.Drawing.Size(124, 42);
+            this.buttonUpdate.TabIndex = 5;
+            this.buttonUpdate.Text = "Update";
+            this.buttonUpdate.UseVisualStyleBackColor = true;
+            this.buttonUpdate.Click += new System.EventHandler(this.buttonUpdate_Click);
             // 
             // pegawaiBindingSource
             // 
@@ -244,6 +256,7 @@ namespace Form_App
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(578, 544);
+            this.Controls.Add(this.buttonUpdate);
             this.Controls.Add(this.buttonRefreshData);
             this.Controls.Add(this.dataGridViewDataPegawai);
             this.Controls.Add(this.buttonTambahData);
@@ -286,6 +299,7 @@ namespace Form_App
         private System.Windows.Forms.BindingSource pegawaiBindingSource;
         private System.Windows.Forms.BindingSource pegawaiBindingSource1;
         private System.Windows.Forms.Button buttonRefreshData;
+        private System.Windows.Forms.Button buttonUpdate;
     }
 }
 
