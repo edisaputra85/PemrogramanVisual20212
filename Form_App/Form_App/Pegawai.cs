@@ -114,15 +114,14 @@ namespace Form_App
                     }
             return result;
         }
-        /*
-        public string Delete(int id)
+        
+        public string Delete()
         {
             string result = null;
-            {
                 conn.Open();
-                using (MySqlCommand cmd = new MySqlCommand("DELETE FROM tbpegawai WHERE id=@id ", conn))
+                using (MySqlCommand cmd = new MySqlCommand("DELETE FROM tbpegawai WHERE id_pegawai=@id ", conn))
                 {
-                    cmd.Parameters.AddWithValue("@id", id);
+                    cmd.Parameters.AddWithValue("@id",this.id);
                     try
                     {
                         cmd.ExecuteNonQuery();
@@ -133,11 +132,8 @@ namespace Form_App
                         return e.Message;
                     }
                 }
-            }
             return result;
         }
-        */
-
-
+        
     }
 }

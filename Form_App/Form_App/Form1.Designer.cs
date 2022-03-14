@@ -50,6 +50,7 @@ namespace Form_App
             this.buttonUpdate = new System.Windows.Forms.Button();
             this.pegawaiBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.pegawaiBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.buttonDelete = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewDataPegawai)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pegawaiBindingSource)).BeginInit();
@@ -251,11 +252,22 @@ namespace Form_App
             // 
             this.pegawaiBindingSource1.DataSource = typeof(Form_App.Pegawai);
             // 
+            // buttonDelete
+            // 
+            this.buttonDelete.Location = new System.Drawing.Point(446, 301);
+            this.buttonDelete.Name = "buttonDelete";
+            this.buttonDelete.Size = new System.Drawing.Size(102, 43);
+            this.buttonDelete.TabIndex = 6;
+            this.buttonDelete.Text = "Delete";
+            this.buttonDelete.UseVisualStyleBackColor = true;
+            this.buttonDelete.Click += new System.EventHandler(this.buttonDelete_Click);
+            // 
             // FormInputDataPegawai
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(578, 544);
+            this.Controls.Add(this.buttonDelete);
             this.Controls.Add(this.buttonUpdate);
             this.Controls.Add(this.buttonRefreshData);
             this.Controls.Add(this.dataGridViewDataPegawai);
@@ -300,6 +312,7 @@ namespace Form_App
         private System.Windows.Forms.BindingSource pegawaiBindingSource1;
         private System.Windows.Forms.Button buttonRefreshData;
         private System.Windows.Forms.Button buttonUpdate;
+        private System.Windows.Forms.Button buttonDelete;
     }
 }
 

@@ -99,5 +99,16 @@ namespace Form_App
             id_pegawai = Convert.ToInt32(selectedRow.Cells["id_pegawai"].Value);
 
         }
+
+        private void buttonDelete_Click(object sender, EventArgs e)
+        {
+            string response;
+            Pegawai dataPegawai = new Pegawai();
+            dataPegawai.id = id_pegawai;
+            response = dataPegawai.Delete();
+            if (response == null) MessageBox.Show("Sukses");
+            else MessageBox.Show(response);
+            reloadData();
+        }
     }
 }
