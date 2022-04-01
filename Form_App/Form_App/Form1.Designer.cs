@@ -48,9 +48,9 @@ namespace Form_App
             this.dataGridViewDataPegawai = new System.Windows.Forms.DataGridView();
             this.buttonRefreshData = new System.Windows.Forms.Button();
             this.buttonUpdate = new System.Windows.Forms.Button();
+            this.buttonDelete = new System.Windows.Forms.Button();
             this.pegawaiBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.pegawaiBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.buttonDelete = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewDataPegawai)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pegawaiBindingSource)).BeginInit();
@@ -244,14 +244,6 @@ namespace Form_App
             this.buttonUpdate.UseVisualStyleBackColor = true;
             this.buttonUpdate.Click += new System.EventHandler(this.buttonUpdate_Click);
             // 
-            // pegawaiBindingSource
-            // 
-            this.pegawaiBindingSource.DataSource = typeof(Form_App.Pegawai);
-            // 
-            // pegawaiBindingSource1
-            // 
-            this.pegawaiBindingSource1.DataSource = typeof(Form_App.Pegawai);
-            // 
             // buttonDelete
             // 
             this.buttonDelete.Location = new System.Drawing.Point(446, 301);
@@ -261,6 +253,14 @@ namespace Form_App
             this.buttonDelete.Text = "Delete";
             this.buttonDelete.UseVisualStyleBackColor = true;
             this.buttonDelete.Click += new System.EventHandler(this.buttonDelete_Click);
+            // 
+            // pegawaiBindingSource
+            // 
+            this.pegawaiBindingSource.DataSource = typeof(Form_App.Pegawai);
+            // 
+            // pegawaiBindingSource1
+            // 
+            this.pegawaiBindingSource1.DataSource = typeof(Form_App.Pegawai);
             // 
             // FormInputDataPegawai
             // 
